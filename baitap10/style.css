@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 45%;
+    margin: 5px;
+}
+
+.index{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.index3{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+#index3a{
+    background-color: rgb(138, 238, 205);
+}
+#index3b{
+    background-color: violet;
+}
+
+#index1{
+    background-color: red;
+    
+}
+
+#index2{
+    background-color: burlywood;
+}
+
+#index4{
+    background-color: violet;
+}
