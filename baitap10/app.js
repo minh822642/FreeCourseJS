@@ -33,8 +33,6 @@ const click3 = () => {
 //bai4
 let index4 = document.getElementById("index4");
 let fontChange = index4.style.fontSize.split("px");
-console.log(fontChange);
-console.log(typeof fontChange);
 const click4a = () => {
     fontChange[0]++;
     index4.style.fontSize = fontChange[0] + "px";

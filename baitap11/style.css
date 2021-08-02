@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    background: linear-gradient(
+    90deg,
+    rgba(48, 16, 255, 1) 0%,
+    rgba(100, 115, 255, 1) 100%
+  );
+}
+
+.container{
+    background-color: #161a2b;
+    margin: 10px;
+    height: 800px;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.header{
+    color: white ;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.add{
+    height: 40px;
+    font-size: medium;
+}
+
+
+#input{
+    padding:14px 32px 14px 16px; 
+    width: 80%;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+
+#input::placeholder{
+    color: #e2e2e2;
+}
+
+
+#btn-add{
+    width: 10%;
+    background-color:  rgba(93, 12, 255, 1);
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+#btn-add:hover{
+    background-color: rgba(155, 0, 250, 1);
+    
+}
+
+.div-li{
+    text-align: center;
+    margin: 0 10px;
+    padding: 10px ;
+}
+
+.del{
+    height: 40px;
+    font-size: medium;
+}
+
+#li{
+    padding: 8px 32px 29px 16px; 
+    width: 80%;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    background: #161a2b;
+    color: #fff;
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+}
+
+#li:hover{
+    background-color: rgb(49, 49, 49);
+}
+
+
+#btn-del{
+    height: 41px;
+    width: 10%;
+    background-color: rgba(93, 12, 255, 1) ;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+#btn-del:hover{
+    background-color: rgb(230, 46, 132);
+}
+
+#li2{
+    padding: 8px 32px 29px 16px; 
+    width: 80%;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    background: transparent;
+    color: #cdcdcd;
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#li2:hover{
+    background-color: rgb(49, 49, 49);
+}
